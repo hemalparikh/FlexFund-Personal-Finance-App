@@ -157,3 +157,95 @@ com.example.flexfund
  ┃ ┗ profile
  ┃   ┗ ProfileFragment.kt
  ┗ MainActivity.kt
+
+---
+
+## 💾 Data Handling
+
+FlexFund uses **SharedPreferences** for local persistence.
+
+### Stored locally:
+- Transactions  
+- User name  
+- Savings goal  
+- Preferred currency  
+- Notification preference  
+
+This ensures that user data remains available even after the app is restarted.
+
+---
+
+## 📦 Export Functionality
+
+The app allows users to export transaction summaries into a shareable file.
+
+### Export includes:
+- Title  
+- Category  
+- Amount  
+- Date  
+- Type (Income / Expense)  
+
+### Supported sharing options:
+- Gmail  
+- WhatsApp  
+- Google Drive  
+- Notes / Files apps  
+
+---
+
+## 🎯 Design Focus
+
+This project was built with the following product goals:
+
+- Keep the interface informative without feeling crowded  
+- Make finance tracking feel modern and approachable  
+- Create a mobile-first user experience  
+- Demonstrate practical Android engineering skills with clean UX  
+
+---
+
+## 🧪 Core Requirement Coverage
+
+This project was built to satisfy the following assignment expectations:
+
+- ✅ Home Dashboard  
+- ✅ Transaction Tracking  
+- ✅ Goal / Challenge Feature  
+- ✅ Insights Screen  
+- ✅ Smooth Mobile UX  
+- ✅ Local Data Handling  
+- ✅ Organized Code Structure  
+
+---
+
+## 🔮 Future Improvements
+
+Potential future enhancements include:
+
+- Dark mode  
+- Biometric lock  
+- CSV / PDF export  
+- Reminder notifications  
+- Charts and visual analytics  
+- API-based exchange rate conversion  
+- Cloud sync / backend integration  
+
+---
+
+## 🚀 How to Run
+
+1. Open the project in **Android Studio**  
+2. Sync Gradle files  
+3. Run on:
+   - Android Emulator  
+   **or**
+   - Physical Android device  
+
+---
+
+## 👨‍💻 Author
+
+**Hemal Parikh**
+
+---
