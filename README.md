@@ -1,103 +1,135 @@
-# FlexFund – Personal Finance Companion App
+<div align="center">
 
-FlexFund is a modern Android personal finance companion app designed to help users track transactions, monitor savings goals, and understand spending behavior through a clean, engaging, and mobile-friendly experience.
+# 💸 FlexFund
+### *Personal Finance Companion App*
 
-The app is built with **Kotlin + XML** and focuses on combining **practical financial tracking** with **thoughtful product design**, rather than just displaying static dashboards.
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/UI-XML-FF6F00?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Storage-SharedPreferences-1E88E5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Submission%20Ready-success?style=for-the-badge" />
+</p>
+
+<p align="center">
+  A modern Android personal finance companion app designed to help users track transactions, manage savings goals, and understand spending behavior through a clean, engaging, and mobile-first experience.
+</p>
+
+</div>
 
 ---
 
-## ✨ Features
+## ✨ Overview
+
+**FlexFund** is a polished Android finance app built with **Kotlin + XML**, focused on helping users become more aware of their money habits through:
+
+- real-time financial tracking
+- intuitive mobile UX
+- personalized settings
+- actionable spending insights
+
+Rather than being just a static finance dashboard, FlexFund is designed to feel like a **thoughtful personal finance product**.
+
+---
+
+## 🚀 Core Features
 
 ### 🏠 Home Dashboard
-- View **current balance**
-- Track **total income**
-- Track **total expenses**
-- Quick financial summary cards
-- Real-time dashboard updates based on transactions
-- Progress-based financial overview
+- Current balance overview
+- Total income summary
+- Total expense summary
+- Savings progress / financial overview
+- Real-time dashboard updates
 
 ### 💸 Transaction Tracking
 - Add new transactions
 - View transaction history
-- Edit existing transactions
+- Edit transactions
 - Delete transactions
 - Search transactions
 - Filter by:
   - All
   - Income
   - Expense
-- Persistent local transaction storage
 
 ### 🎯 Goals & Challenges
 - Monthly savings goal tracker
-- Dynamic savings progress bar
+- Dynamic progress bar
 - Smart motivation section
-- Mini challenge cards for better engagement
+- Mini challenge cards
 
 ### 📊 Insights Screen
 - Top spending category
-- Spending pattern analysis
-- Smart financial suggestions
-- Weekly-style expense behavior insight
+- Spending behavior insight
+- Smart money suggestions
+- Weekly-style pattern analysis
 
 ### ⚙️ Profile & Settings
 - Save user name
-- Save monthly savings goal
+- Set monthly savings goal
 - Choose preferred currency
-- Notification preference toggle
+- Toggle reminder preference
 
 ### 🌍 Multi-Currency Support
-- Supports:
-  - INR (₹)
-  - USD ($)
-  - EUR (€)
-  - GBP (£)
-  - JPY (¥)
-- Currency preference is reflected across the app
+Supports:
+- INR (₹)
+- USD ($)
+- EUR (€)
+- GBP (£)
+- JPY (¥)
 
 ### 📁 Data Export
-- Export transactions as a shareable text file
-- Share/export through Android share sheet
+- Export transactions as a shareable file
+- Share via Android share sheet
 
 ### 🎬 UI / UX Enhancements
-- Animated screen transitions
-- Smooth form interactions
-- Modern fintech-inspired UI
-- Responsive layout for Android devices
-- Empty state for transactions screen
+- Animated transitions
+- Empty state handling
+- Smooth mobile navigation
+- Fintech-inspired modern interface
 
 ---
 
-## 🧠 Real-Time Dynamic Behavior
+## 🧠 Real-Time Dynamic App Behavior
 
-FlexFund is not just a static UI demo.
+FlexFund is not built as a static UI demo.
 
-The app dynamically updates across screens when transactions are added, edited, or deleted.
+The app dynamically updates values across screens whenever transactions are:
+- added
+- edited
+- deleted
 
-### Real-time updates include:
+### Dynamically updated values include:
 - Current balance
 - Total income
 - Total expenses
-- Savings goal progress
-- Goal screen values
+- Savings progress
+- Goals screen data
 - Insights screen calculations
-- Currency display updates
+- Currency symbol display
+
+---
+
+## 📱 Screens Included
+
+- **Home Dashboard**
+- **Transactions**
+- **Add / Edit Transaction**
+- **Goals**
+- **Insights**
+- **Profile & Settings**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Kotlin
-- **UI:** XML
-- **Architecture:** Fragment-based Android app
-- **Storage:** SharedPreferences
-- **Components Used:**
-  - RecyclerView
-  - Material Components
-  - Bottom Navigation
-  - Fragment Navigation
-  - DatePickerDialog
-  - FileProvider
+| Category | Technology |
+|---------|------------|
+| Language | Kotlin |
+| UI | XML |
+| Architecture | Fragment-based Android app |
+| Storage | SharedPreferences |
+| Components | RecyclerView, Bottom Navigation, Material Components, FileProvider |
 
 ---
 
@@ -125,5 +157,3 @@ com.example.flexfund
  ┃ ┗ profile
  ┃   ┗ ProfileFragment.kt
  ┗ MainActivity.kt
-
- 
