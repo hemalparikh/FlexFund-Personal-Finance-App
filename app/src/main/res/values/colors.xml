@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- FlexFund Theme -->
+    <color name="bg_dark">#0A0F1F</color>
+    <color name="bg_dark_alt">#10172D</color>
+    <color name="card_dark">#141D38</color>
+    <color name="card_dark_2">#1B274A</color>
+
+    <color name="neon_blue">#4DA8FF</color>
+    <color name="neon_green">#00E38C</color>
+    <color name="neon_purple">#8B5CFF</color>
+    <color name="soft_red">#FF5F7A</color>
+    <color name="soft_yellow">#FFD166</color>
+
+    <color name="text_primary">#F5F7FF</color>
+    <color name="text_secondary">#A8B2D1</color>
+    <color name="divider_dark">#26304F</color>
+    <color name="chip_bg">#202B4D</color>
+
+    <color name="gradient_start">#121A35</color>
+    <color name="gradient_end">#0A0F1F</color>
+</resources>
