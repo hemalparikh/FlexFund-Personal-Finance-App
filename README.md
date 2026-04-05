@@ -133,32 +133,6 @@ The app dynamically updates values across screens whenever transactions are:
 
 ---
 
-## 📂 Project Structure
-
-```bash
-com.example.flexfund
- ┣ model
- ┃ ┗ Transaction.kt
- ┣ utils
- ┃ ┣ TransactionStorage.kt
- ┃ ┣ AppSettings.kt
- ┃ ┗ FinanceCalculator.kt
- ┣ ui
- ┃ ┣ home
- ┃ ┃ ┗ HomeFragment.kt
- ┃ ┣ transactions
- ┃ ┃ ┣ TransactionsFragment.kt
- ┃ ┃ ┣ TransactionAdapter.kt
- ┃ ┃ ┗ AddTransactionActivity.kt
- ┃ ┣ goals
- ┃ ┃ ┗ GoalsFragment.kt
- ┃ ┣ insights
- ┃ ┃ ┗ InsightsFragment.kt
- ┃ ┗ profile
- ┃   ┗ ProfileFragment.kt
- ┗ MainActivity.kt
-
----
 
 ## 💾 Data Handling
 
@@ -247,5 +221,32 @@ Potential future enhancements include:
 ## 👨‍💻 Author
 
 **Hemal Parikh**
+
+---
+
+## 📂 Project Structure
+
+```bash
+com.example.flexfund
+ ┣ model
+ ┃ ┗ Transaction.kt
+ ┣ utils
+ ┃ ┣ TransactionStorage.kt
+ ┃ ┣ AppSettings.kt
+ ┃ ┗ FinanceCalculator.kt
+ ┣ ui
+ ┃ ┣ home
+ ┃ ┃ ┗ HomeFragment.kt
+ ┃ ┣ transactions
+ ┃ ┃ ┣ TransactionsFragment.kt
+ ┃ ┃ ┣ TransactionAdapter.kt
+ ┃ ┃ ┗ AddTransactionActivity.kt
+ ┃ ┣ goals
+ ┃ ┃ ┗ GoalsFragment.kt
+ ┃ ┣ insights
+ ┃ ┃ ┗ InsightsFragment.kt
+ ┃ ┗ profile
+ ┃   ┗ ProfileFragment.kt
+ ┗ MainActivity.kt
 
 ---
